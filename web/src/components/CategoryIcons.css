@@ -1,0 +1,40 @@
+/* Main Category Container */
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    position: relative;
+    bottom: 26px;
+}
+
+/* Category Item */
+.category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    gap: 6px;
+}
+
+/* Hover Effect */
+.category-item:hover {
+    transform: scale(1.1);
+}
+
+/* Category Image */
+.category-image {
+    width: 34px; /* Slightly smaller size */
+    height: 34px;
+}
+
+/* Category Label */
+.category-label {
+    font-size: 11px; /* Smaller font */
+    color: #666;
+}

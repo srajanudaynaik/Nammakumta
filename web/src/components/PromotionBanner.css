@@ -1,0 +1,45 @@
+.promotion-banner {
+    display: flex;
+    align-items: center;
+    background-image: url(https://damroimagesstaging.blob.core.windows.net/damroimages/7988.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 101px;
+    margin: 15px;
+    margin-top: -15px;
+  }
+  
+  .promotion-content {
+    flex: 1 1;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 27px;
+  }
+  
+  .promotion-arrow {
+    background-color: #ffcc00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .promotion-arrow:hover {
+    background-color: #f5b700;
+  }
+  
